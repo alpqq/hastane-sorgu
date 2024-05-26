@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "197515121768",
+    "project_id": "hastanesorgu",
+    "storage_bucket": "hastanesorgu.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:197515121768:android:946abf5886eb8c9e6dd7dd",
+        "android_client_info": {
+          "package_name": "com.example.hastanesorgu"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPnyx1OaawN2KgzJO12DWrVRsdC3MQ-kQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".UploadActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/red"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="287dp"
+        android:layout_height="50dp"
+        android:text="Hasta Kaydet"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="569dp" />
+
+    <EditText
+        android:id="@+id/hastaadi"
+        android:layout_width="287dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="Hastanın Adını Giriniz"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="277dp" />
+
+    <EditText
+        android:id="@+id/hastadoktoru"
+        android:layout_width="287dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="Hastanın Rahatsızlığını Giriniz"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="349dp" />
+
+    <EditText
+        android:id="@+id/hastaodasi"
+        android:layout_width="287dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="Hastanın Odasını Giriniz"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="415dp" />
+
+    <EditText
+        android:id="@+id/hastanindurumu"
+        android:layout_width="287dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="Hastanın Doktorunu Giriniz"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="481dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
